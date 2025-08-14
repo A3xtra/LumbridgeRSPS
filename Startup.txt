@@ -1,9 +1,21 @@
 python -m http.server 8000
 
 cd Kronos-master
->> .\gradlew.bat :kronos-server:run --no-daemon --console=plain 
+
+Central server
+.\gradlew.bat :kronos-central-server:run --no-daemon --console=plain
+
+Game server
+.\gradlew.bat :kronos-server:run --no-daemon --console=plain 
 [08/13/2025 09:24:35 PM]: KronosPK World (3) Server is now listening on 127.0.0.1:43594
 
-cd Kronos-master
->> .\gradlew.bat :kronos-update-server:run --no-daemon --console=plain      
+Update server
+.\gradlew.bat :kronos-update-server:run --no-daemon --console=plain      
 [08/13/2025 09:25:13 PM]: Update Server is now listening on 127.0.0.1:7304          
+
+Rebuild client on client changing:
+cd C:\Users\seitz\OneDrive\Desktop\Kronos\kronos-osrs-184\Kronos-master\runelite
+.\gradlew.bat --no-daemon -x test :runelite-client:clean :runelite-client:shadowJar
+
+Load
+java -jar .\runelite-client\build\libs\runelite-client-1.5.37-SNAPSHOT-shaded.jar --no-splash
