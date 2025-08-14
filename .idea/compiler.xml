@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+        </processorPath>
+        <module name="Kronos.kronos-server-live.test" />
+        <module name="Kronos-master.Kronos.test" />
+        <module name="Kronos.kronos-central-server.test" />
+        <module name="Kronos.kronos-webhooks.main" />
+        <module name="Kronos.kronos-central-server.main" />
+        <module name="Kronos.kronos-webhooks.test" />
+        <module name="Kronos.kronos-server.main" />
+        <module name="Kronos.kronos-server.test" />
+        <module name="Kronos.kronos-api.test" />
+        <module name="Kronos.kronos-client.main" />
+        <module name="Kronos.kronos-server-live.main" />
+        <module name="Kronos.kronos-launcher.test" />
+        <module name="Kronos.kronos-update-server.main" />
+        <module name="Kronos-master.Kronos.main" />
+        <module name="Kronos.kronos-client.test" />
+        <module name="Kronos.kronos-api.main" />
+        <module name="Kronos.kronos-launcher.main" />
+        <module name="Kronos.kronos-update-server.test" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

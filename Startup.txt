@@ -1,0 +1,9 @@
+python -m http.server 8000
+
+cd Kronos-master
+>> .\gradlew.bat :kronos-server:run --no-daemon --console=plain 
+[08/13/2025 09:24:35 PM]: KronosPK World (3) Server is now listening on 127.0.0.1:43594
+
+cd Kronos-master
+>> .\gradlew.bat :kronos-update-server:run --no-daemon --console=plain      
+[08/13/2025 09:25:13 PM]: Update Server is now listening on 127.0.0.1:7304          

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Kronos.iml" filepath="$PROJECT_DIR$/.idea/Kronos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kronos-api/Kronos.kronos-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kronos-api/Kronos.kronos-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kronos-central-server/Kronos.kronos-central-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kronos-central-server/Kronos.kronos-central-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kronos-launcher/Kronos.kronos-launcher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kronos-launcher/Kronos.kronos-launcher.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kronos-server/Kronos.kronos-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kronos-server/Kronos.kronos-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kronos-server/Kronos.kronos-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kronos-server/Kronos.kronos-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kronos-update-server/Kronos.kronos-update-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kronos-update-server/Kronos.kronos-update-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kronos-webhooks/Kronos.kronos-webhooks.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kronos-webhooks/Kronos.kronos-webhooks.main.iml" />
+    </modules>
+  </component>
+</project>
