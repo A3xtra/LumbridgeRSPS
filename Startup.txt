@@ -1,3 +1,5 @@
+cd kronos-osrs-184
+
 python -m http.server 8000
 
 cd Kronos-master
